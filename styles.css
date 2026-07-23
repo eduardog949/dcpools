@@ -241,7 +241,7 @@
     color:var(--white);
     font-size:clamp(2.2rem, 5vw, 3.6rem);
     max-width:15ch;
-    margin-bottom:0.35em;
+    margin-bottom:0em;
   }
   .hero h1 em{ font-style:italic; color:var(--blue-200); }
   .hero p.lede{
@@ -370,10 +370,11 @@
     position:relative;
     overflow:hidden;
     box-shadow:var(--shadow);
+    background-image:url('images/dc-dave.jpg'); background-size:cover; 
   }
-  /* Swap this with: background-image:url('images/owner-portrait.jpg'); background-size:cover; */
+  
   .about-photo::after{
-    content:"Photo of the owner on-site";
+    
     position:absolute; inset:0;
     display:flex; align-items:flex-end;
     padding:18px;
